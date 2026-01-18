@@ -3,20 +3,34 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Sarita Chauhan</title>
+  <title>Sarita Chauhan | Yoga Therapist in Ahmedabad</title>
+  <meta name="description" content="Sarita Chauhan is an experienced Yoga Therapist in Ahmedabad, offering therapeutic yoga programs to enhance physical, mental, and emotional well-being.">
+
+  <!-- Open Graph / Social Sharing -->
+  <meta property="og:title" content="Sarita Chauhan | Yoga Therapist in Ahmedabad">
+  <meta property="og:description" content="Experienced Yoga Therapist offering therapeutic yoga programs for holistic well-being.">
+  <meta property="og:image" content="mamma.jpg">
+  <meta property="og:url" content="https://yourwebsite.com/">
+  <meta property="og:type" content="website">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Sarita Chauhan | Yoga Therapist in Ahmedabad">
+  <meta name="twitter:description" content="Therapeutic yoga programs to improve physical, mental, and emotional health.">
+  <meta name="twitter:image" content="mamma.jpg">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon/favicon.png" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="favicon/favicon.svg" />
+  <link rel="shortcut icon" href="favicon/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png" />
+  <link rel="manifest" href="favicon/site.webmanifest" />
 
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Custom CSS -->
   <link rel="stylesheet" href="style.css">
-
-  <!-- Favicon -->
-  <link rel="icon" type="image/png" href="favicon/" sizes="96x96" />
-  <link rel="icon" type="image/svg+xml" href="favicon/" />
-  <link rel="shortcut icon" href="favicon/favicon.ico" />
-  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png" />
-  <link rel="manifest" href="favicon/site.webmanifest" />
 </head>
 <body>
 
@@ -33,22 +47,24 @@
 </div>
 
 <!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-sm">
-  <div class="container">
-    <a class="navbar-brand fw-bold" href="#">Sarita Chauhan</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navMenu">
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-        <li class="nav-item"><a class="nav-link" href="#degrees">Qualifications</a></li>
-        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-      </ul>
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">Sarita Chauhan</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#degrees">Qualifications</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
     </div>
-  </div>
-</nav>
+  </nav>
+</header>
 
 <!-- Hero Section -->
 <section class="hero text-center" id="home">
@@ -56,13 +72,13 @@
     <div class="row align-items-center justify-content-center">
       <div class="col-md-4 mb-4 mb-md-0">
         <img src="mamma.jpg" 
-             alt="Yoga Therapist Placeholder Photo" 
+             alt="Sarita Chauhan Yoga Therapist Portrait" 
              class="img-fluid rounded-circle shadow">
       </div>
       <div class="col-md-8">
         <h1 class="display-4 fw-bold">Sarita Chauhan</h1>
-        <p class="lead mt-3">Yoga Therapist</p>
-        <a href="#contact" class="btn btn-dark btn-lg mt-4">Contact</a>
+        <p class="lead mt-3">Certified Yoga Therapist in Ahmedabad</p>
+        <a href="#contact" class="btn btn-dark btn-lg mt-4">Contact Me</a>
       </div>
     </div>
   </div>
@@ -73,9 +89,7 @@
   <div class="container">
     <h2 class="section-title text-center">About Me</h2>
     <p class="text-center mx-auto" style="max-width: 800px;">
-      I am a yoga therapist with years of experience helping people improve their physical,
-      mental, and emotional well-being through therapeutic yoga practices. My approach combines
-      traditional yogic wisdom with modern therapeutic techniques.
+      I am a yoga therapist with years of experience in yoga, mental, and emotional well-being through therapeutic yoga practices. My approach combines traditional yogic wisdom with modern therapeutic techniques.
     </p>
   </div>
 </section>
@@ -86,89 +100,47 @@
     <h2 class="section-title text-center">Qualifications</h2>
     <div class="row g-4 mt-4">
       <div class="col-md-4">
-        <div class="card degree-card h-100 shadow-sm">
+        <article class="card degree-card h-100 shadow-sm">
           <div class="card-body">
-            <h5 class="card-title">YTTC Lakulish university</h5>
+            <h3 class="card-title h5">YTTC Lakulish University</h3>
             <p class="card-text">Lakulish University</p>
             <p class="text-muted">Year: 2016</p>
           </div>
-        </div>
+        </article>
       </div>
       <div class="col-md-4">
-        <div class="card degree-card h-100 shadow-sm">
+        <article class="card degree-card h-100 shadow-sm">
           <div class="card-body">
-            <h5 class="card-title">M.SC in yoga and science of living</h5>
+            <h3 class="card-title h5">M.Sc in Yoga and Science of Living</h3>
             <p class="card-text">Jain Vishwabharti University</p>
-            <p class="text-muted">Year: 2019-2021</p>
+            <p class="text-muted">Year: 2019–2021</p>
           </div>
-        </div>
+        </article>
       </div>
       <div class="col-md-4">
-        <div class="card degree-card h-100 shadow-sm">
+        <article class="card degree-card h-100 shadow-sm">
           <div class="card-body">
-            <h5 class="card-title">AYTTC Patanjali yogpeeth</h5>
+            <h3 class="card-title h5">AYTTC Patanjali Yogpeeth</h3>
             <p class="card-text">Patanjali Yogpeeth</p>
             <p class="text-muted">Year: 2020</p>
           </div>
-        </div>
+        </article>
       </div>
     </div>
   </div>
 </section>
-
-<!-- Services Section 
-<section class="py-5" id="services">
-  <div class="container">
-    <h2 class="section-title text-center">Services</h2>
-    <div class="row g-4 mt-4">
-      <div class="col-md-3">
-        <div class="card h-100 shadow-sm text-center">
-          <div class="card-body">
-            <h5 class="card-title">Therapeutic Yoga</h5>
-            <p class="card-text">Personalized yoga sessions for health conditions.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3">
-        <div class="card h-100 shadow-sm text-center">
-          <div class="card-body">
-            <h5 class="card-title">Pranayama</h5>
-            <p class="card-text">Breathing techniques for mental clarity and relaxation.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3">
-        <div class="card h-100 shadow-sm text-center">
-          <div class="card-body">
-            <h5 class="card-title">Meditation</h5>
-            <p class="card-text">Guided meditation sessions for stress relief.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3">
-        <div class="card h-100 shadow-sm text-center">
-          <div class="card-body">
-            <h5 class="card-title">Online Classes</h5>
-            <p class="card-text">Virtual sessions accessible from anywhere.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
--->
 
 <!-- Contact Section -->
 <section class="py-5" id="contact">
   <div class="container">
-    <h2 class="section-title text-center">Contact</h2>
+    <h2 class="section-title text-center">Contact Me</h2>
     <div class="row justify-content-center mt-4">
       <div class="col-md-6">
         <div class="card shadow-sm">
           <div class="card-body text-center">
-            <p><strong>Phone:</strong> <a href="tel:+919875085741">+91 9875085741</a></p>
+            <p><strong>Phone:</strong> <a href="tel:+919875085741">+91 98750 85741</a></p>
             <p><strong>Email:</strong> <a href="mailto:sarta.bhadauria@email.com">sarta.bhadauria@email.com</a></p>
-            <p><strong>Location:</strong> Ahemdabad, India</p>
+            <p><strong>Location:</strong> Ahmedabad, India</p>
           </div>
         </div>
       </div>

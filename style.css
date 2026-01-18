@@ -3,10 +3,25 @@ body {
 }
 
 .hero {
-  background: linear-gradient(135deg, #a8edea, #fed6e3);
+  background: linear-gradient(270deg, #a8edea, #fed6e3, #fcb69f, #a8edea);
+  background-size: 800% 800%; /* Gradient is larger to allow smooth movement */
+  animation: gradientShift 200s ease infinite; /* Slower, more relaxing */
   min-height: 100vh;
   display: flex;
   align-items: center;
+}
+
+/* Gradient Animation */
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 .section-title {
